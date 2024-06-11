@@ -1,0 +1,18 @@
+LÀM TRÊN VISUAL CODE
+1.Tải tất cả file về
+2.Gắn database lên phpadmin
+3.Đổi tên database theo mình đặt tên
+4.Tải python
+5.Đổi link bên dưới trong theo địa chỉ mình lưu
+    $script_dir = 'C:\\Users\\acer\\Documents\\ltmnm\\doannhom\\BaiTieuLuan\\BaiTieuLuan';
+    $python_path = 'C:\\Users\\acer\\AppData\\Local\\Programs\\Python\\Python312\\python.exe';
+6.import từng cái vào trong terminal
+	pip install opencv-contrib-python
+	pip install pillow
+	pip install opencv-python
+7.Sau khi thành công thì chạy 01_face_dataset.py ảnh sẽ được lưu vào dataset
+8.Chạy 02_face_training.py để máy học ảnh nhận diện khuôn mặt
+9.Chạy 03_face_recognition.py 
+10.Chạy code đăng nhập 
+ + Tên đăng nhập:tranvandiep
+ + Mật khẩu: 123

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search-form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+}
+
+.search-form input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #fe274b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.student-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
